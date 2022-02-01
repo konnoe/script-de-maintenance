@@ -1,0 +1,7 @@
+Section,Method,Command,Arguments,Name,Description
+la base,cmd,taskmgr.exe,,Example 2:<LineBreak />gestionnaire de tache,cela vous permetra de voir les aplication qui fonctione en arrire plant
+la base,cmd,cleanmgr.exe,example_text_file,Example 3:<LineBreak />cleanmgr,cela vous permetra de suprimer des fichier stocker sur votre pc qui ne serv plus mise a part a ralentire votre pc
+la base auto,powershell_file,.\cleanmgr_auto.ps1,,Example 4:<LineBreak />cleanmgr auto,meme chause que le bouton du dessus mais en automatique pour netoyer plus en profondeur
+la base auto,cmd,.\netoyage_des_fichier_temporaire.bat,,Example 5:<LineBreak />fichier temporaire,cela vous permer de suprimer tout ces fichier qui ralentisse votre ordinateur automatiquement
+la base auto,powershell_file,.\rangement_du_bureau_auto.ps1,,Example 8:<LineBreak />rangement du bureau auto,cela vous permetra de ranger votre bureau de facon tres rapide est organiser pour permetr a votre ordinateur de demarer plus vite
+démarrage,powershell_file,.\fichier_au_demarage.ps1,,Example 7:<LineBreak />fichier au démarrage,cecis vous permetra de suprimer des fichier qui ralentisse le demarage de votre ordinateur est vous permet aussi d’en ajouter
