@@ -14,4 +14,3 @@ Vous pouvez également ajouter des programmes et des fichiers Windows au menu.
 
 Il suffit de quelques minutes pour l'installer et - *clic ! clic !* - vous êtes parti !
 
-Traduit avec www.DeepL.com/Translator (version gratuite)
