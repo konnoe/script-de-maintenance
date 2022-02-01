@@ -22,7 +22,7 @@ Testé avec **PowerShell 5.1 x64** et **PowerShell 7 x64** sur Windows 10.
 ## Utilisation de base
 <pre><code>
 Show-ScriptMenuGui -csvPath '.\example_data.csv' -Verbose
-<code><pre>
+
 
 ## Show-ScriptMenuGui options
 
