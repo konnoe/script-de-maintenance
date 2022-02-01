@@ -23,3 +23,15 @@ Testé avec **PowerShell 5.1 x64** et **PowerShell 7 x64** sur Windows 10.
 <pre><code>
 Show-ScriptMenuGui -csvPath '.\example_data.csv' -Verbose
 <code><pre>
+
+## Show-ScriptMenuGui options
+
+Paramètre | Qu'est-ce que c'est ?
+
+`-csvPath` | Chemin du fichier CSV qui définit le menu. Voir [CSV reference](#csv-reference), ci-dessous.
+`-windowTitle` *(facultatif)* | Titre personnalisé pour la fenêtre du menu
+`-buttonForegroundColor` *(facultatif)* | Couleur d'avant-plan (texte) du bouton personnalisé. Les codes hexadécimaux (par exemple, `#C00077`) et les noms de couleur (par exemple, `Azure`) sont valides. Voir [.NET Color Class](https://docs.microsoft.com/en-us/dotnet/api/system.windows.media.colors).
+`-buttonBackgroundColor` *(facultatif)* | Couleur de fond du bouton personnalisé
+`-iconPath` *(facultatif)* | Chemin du fichier .ico à utiliser dans le menu
+`-hideConsole` *(facultatif)* | Masquer la console PowerShell à partir de laquelle le menu est appelé. **Note : ** Cela signifie que vous ne pourrez pas voir les erreurs dues aux clics sur les boutons. Si les choses ne fonctionnent pas, vous devriez arrêter d'utiliser cette fonction en premier.
+`-noExit` *(facultatif)* | Démarrer toutes les instances PowerShell avec `-NoExit` *("Ne sort pas après l'exécution des commandes de démarrage.")*. **Note:** Vous pouvez définir `-NoExit` sur des éléments de menu individuels en utilisant la colonne *Arguments*. Voir
