@@ -12,7 +12,7 @@ Il est facile à personnaliser et rapide à lancer.
 
 Vous pouvez également ajouter des programmes et des fichiers Windows au menu.
 
-Il suffit de quelques minutes pour l'installer et - *clic ! clic !* - vous êtes parti !
+Il suffit de quelques minutes pour l'installer et - *clic ! clic !* - vous êtes partis !
 
 ## Compatibilité
 
