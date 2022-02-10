@@ -18,6 +18,23 @@ Il suffit de quelques minutes pour l'installer et - *clic ! clic !* - vous êtes
 
 Testé avec **PowerShell 5.1 x64** et **PowerShell 7 x64** sur Windows 10.
 
+## prérequis
+
+pour pouvoir utiliser se script vous alez devoir activer l'utilisation des script.
+vous alez devoir lancer powershell en administrateur,et y notes cet commande. 
+
+<pre><code>
+Set-Executionpolicy Unrestricted
+
+</code></pre>
+/!\ cette commande autorise tout type de script a fonctioner sur votre ordinateur
+une foix l'utilisation du script de maintenance terminer vous devrait
+notes cette commande elle aussi en administrateur depuis powershell
+
+<pre><code>
+Set-ExecutionPolicy  Restricted
+
+</code></pre>
 
 ## Utilisation de base
 <pre><code>
